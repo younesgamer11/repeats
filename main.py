@@ -15,15 +15,3 @@ echo_handler = MessageHandler(Filters.text, echo)
 dispatcher = updater.dispatcher
 dispatcher.add_handler(echo_handler)
 updater.start_polling()
-
-
-
-
-
-
-# for admin
-# @bot.message_handler(commands=['stat'])
-# def send_welcome(message):
-# 	if message.chat.id == ADMIN:
-# 		stat = f'<b>📊 Статистика.</b>\n\n🔄 Количество пользователей: {countusers()}'
-# 		bot.send_message(ADMIN, text=stat, parse_mode="html")
