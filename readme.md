@@ -17,8 +17,6 @@ pip install python-telegram-bot==13.0
 python main.py
 ```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
