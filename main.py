@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from config import TOKEN
 import telegram
 
-updater = Updater(token=TOKEN, use_context=True)
+updater = Updater(token=6247953312:AAFV_mYUJEzr3vd5qQtRfJCkQU6g54NxmhE, use_context=True)
 
 def echo(update, context):
 	if update.message.text == '/start':
